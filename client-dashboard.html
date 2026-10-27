@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Stackly property owner, REIT &amp; institutional lender valuation workspace">
+<title>Client Valuation Portal — Stackly Property Valuation</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/shared.css">
+  <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="assets/fontawesome-all.min.css">
+<link rel="stylesheet" href="CSS/dashboard.css">
+</head>
+<body class="dashboard-page dashboard-client">
+<div class="dashboard-app">
+  <aside id="dashboard-sidebar" class="dashboard-sidebar" aria-label="Client dashboard navigation">
+    <div class="dashboard-sidebar__brand">
+      <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+    </div>
+    <div class="dashboard-sidebar__mobile-head">
+      <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+      <button class="dashboard-menu-close" type="button" aria-label="Close dashboard menu"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </div>
+    <nav class="dashboard-nav" aria-label="Client workspace tabs">
+      <button type="button" class="dashboard-tab is-active" data-tab="overview" aria-selected="true"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i><span>Overview</span></button><button type="button" class="dashboard-tab" data-tab="performance" aria-selected="false"><i class="fa-solid fa-chart-line" aria-hidden="true"></i><span>Value Radar</span></button><button type="button" class="dashboard-tab" data-tab="reports" aria-selected="false"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><span>My Appraisals</span></button><button type="button" class="dashboard-tab" data-tab="insights" aria-selected="false"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i><span>Appraiser Notes</span></button><button type="button" class="dashboard-tab" data-tab="preferences" aria-selected="false"><i class="fa-solid fa-sliders" aria-hidden="true"></i><span>Preferences</span></button>
+    </nav>
+    <div class="dashboard-sidebar__bottom">
+      <button class="dashboard-logout" type="button"><i class="fa-solid fa-arrow-right-from-bracket" aria-hidden="true"></i><span>Log out</span></button>
+    </div>
+  </aside>
+  <div class="dashboard-overlay" aria-hidden="true"></div>
+  <div class="dashboard-shell">
+    <header class="dashboard-topbar">
+      <div class="dashboard-topbar__left">
+        <button class="dashboard-menu-toggle" type="button" aria-label="Open dashboard menu" aria-expanded="false" aria-controls="dashboard-sidebar"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+        <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img class="dashboard-header-logo" src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+      </div>
+      <h1 class="dashboard-header-title">Valuation Portfolio Portal</h1>
+      <div class="dashboard-profile" aria-label="Logged in profile">
+        <span class="dashboard-profile__avatar" data-profile-initial>C</span>
+        <span class="dashboard-profile__email" data-profile-email>client@stackly.com</span>
+      </div>
+    </header>
+    <main class="dashboard-main" tabindex="-1">
+      <section aria-labelledby="client-overview-title" class="dashboard-panel is-active" data-panel="overview">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Owner &amp; lender valuation studio</span><h2 id="client-overview-title">Track certified property value across your portfolio.</h2><p>Inspect live hedonic AVM estimates, download MAI/RICS-signed appraisal dossiers, and review comparable sales adjustments in real time.</p></div><div class="dashboard-role"><i class="fa-solid fa-chart-pie"></i><span>Portfolio view</span></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-arrow-trend-up dashboard-card__icon"></i><span class="dashboard-card__trend">+14.8% YoY</span></div><span>Portfolio market value</span><strong>$68.4M</strong><small>Across 12 appraised properties</small></article><article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-bolt dashboard-card__icon"></i><span class="dashboard-card__trend">±1.4% spread</span></div><span>AVM confidence</span><strong>96.8%</strong><small>Calibrated against 148 closed comps</small></article><article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-circle-check dashboard-card__icon"></i><span class="dashboard-card__trend">Weighted avg</span></div><span>Portfolio cap rate</span><strong>7.18%</strong><small>Trailing 12-month NOI yield</small></article><article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-bullseye dashboard-card__icon"></i><span class="dashboard-card__trend">USPAP Ready</span></div><span>Certified dossiers</span><strong>11 / 12</strong><small>1 commercial DCF in final review</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Active assignments</span><h3>Recent appraisals &amp; AVM refreshes</h3><p>Monitor live inspection milestones and download completed valuation reports.</p></div><a class="dashboard-cta" href="404.html">Order new valuation <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-layout"><div class="dashboard-list"><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-building"></i><div><strong>Parcel #409 · Skyline Mixed-Use Tower ($14.85M)</strong><span>10-Yr DCF &amp; 18 comps reconciled · MAI digital seal applied.</span></div></div><span class="dashboard-row__value">Certified</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-warehouse"></i><div><strong>Eastgate Logistics Fulfillment Center ($22.40M)</strong><span>Replacement cost schedule complete · Final cap-rate audit today at 4:00 PM.</span></div></div><span class="dashboard-row__value">In review</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-house-chimney"></i><div><strong>Oakridge Luxury Multifamily Villa ($8.95M)</strong><span>Hedonic AVM &amp; interior inspection verified with 0 lender conditions.</span></div></div><span class="dashboard-row__value">Certified</span></div></div><aside class="dashboard-side-panel"><div><span class="dashboard-eyebrow">Next milestone</span><h3>Download your Q4 portfolio mark-to-market pack.</h3><p>Export consolidated USPAP &amp; IFRS fair-value tables for your credit committee or tax advisor.</p></div><a class="dashboard-cta dashboard-cta--light" href="404.html">Export portfolio pack <i class="fa-solid fa-arrow-right"></i></a></aside></div></section>
+      </section>
+
+      <section aria-labelledby="client-performance-title" class="dashboard-panel" data-panel="performance">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Valuation confidence telemetry</span><h2 id="client-performance-title">See what drives every dollar of assessed value.</h2><p>Compare how your properties score across comparable sales density, NOI stability, physical condition, and submarket liquidity.</p></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><i class="fa-solid fa-arrow-trend-up dashboard-card__icon"></i><span>Comp density</span><strong>97%</strong><small>Submarket transaction match</small></article><article class="dashboard-card"><i class="fa-solid fa-users dashboard-card__icon"></i><span>NOI durability</span><strong>94%</strong><small>WALT &amp; tenant credit score</small></article><article class="dashboard-card"><i class="fa-solid fa-gauge-high dashboard-card__icon"></i><span>Physical condition</span><strong>92%</strong><small>Inspection &amp; CapEx index</small></article><article class="dashboard-card"><i class="fa-solid fa-bullseye dashboard-card__icon"></i><span>Lender readiness</span><strong>98/100</strong><small>USPAP &amp; FIRREA compliance score</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Attribution breakdown</span><h3>Portfolio valuation dimensions</h3><p>Updated automatically after every county deed sync and appraiser inspection.</p></div><a class="dashboard-cta" href="404.html">Share valuation scorecard <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-signal-list"><div><span>Sales comparison weight</span><div class="dashboard-meter"><span style="width:96%"></span></div><strong>96%</strong></div><div><span>DCF cash-flow coverage</span><div class="dashboard-meter"><span style="width:93%"></span></div><strong>93%</strong></div><div><span>Replacement cost alignment</span><div class="dashboard-meter"><span style="width:91%"></span></div><strong>91%</strong></div></div></section>
+      </section>
+
+      <section aria-labelledby="client-reports-title" class="dashboard-panel" data-panel="reports">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Appraisal vault &amp; exports</span><h2 id="client-reports-title">All your signed USPAP dossiers in one vault.</h2><p>Download certified PDF reports, interactive Excel DCF models, or MISMO XML packages for bank underwriting.</p></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><i class="fa-solid fa-file-lines dashboard-card__icon"></i><span>Signed appraisals</span><strong>11</strong><small>USPAP &amp; RICS sealed dossiers</small></article><article class="dashboard-card"><i class="fa-solid fa-eye dashboard-card__icon"></i><span>Lender shares</span><strong>24</strong><small>Underwriting portal views</small></article><article class="dashboard-card"><i class="fa-solid fa-clock dashboard-card__icon"></i><span>Last AVM sync</span><strong>14m</strong><small>Since county deed feed check</small></article><article class="dashboard-card"><i class="fa-solid fa-circle-check dashboard-card__icon"></i><span>Tax appeals won</span><strong>3</strong><small>Assessment reductions secured</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Dossier history</span><h3>Recent certified valuation deliveries</h3><p>Every dossier includes full comparable sales maps, DCF sensitivity tables, and appraiser sign-off.</p></div><a class="dashboard-cta" href="404.html">Download all dossiers <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-list"><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-file-lines"></i><div><strong>Skyline Mixed-Use Tower · Full USPAP Narrative</strong><span>Appraised at $14.85M · Cap Rate 7.42% · Vikram Mehta, MAI.</span></div></div><span class="dashboard-row__value">PDF &amp; XLSX</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-file-lines"></i><div><strong>Westside Urban Infill Parcel · Land HBU &amp; Residual DCF</strong><span>Appraised at $6.20M · FAR 4.5 entitlement verified · Elena Vance, AICP.</span></div></div><span class="dashboard-row__value">PDF &amp; GIS</span></div></div></section>
+      </section>
+
+      <section aria-labelledby="client-insights-title" class="dashboard-panel" data-panel="insights">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Chief appraiser commentary</span><h2 id="client-insights-title">Actionable notes from your valuation team.</h2><p>Review parcel-specific commentary on cap-rate shifts, comparable adjustments, and tax appeal opportunities.</p></div></div>
+        <div class="dashboard-insight-list"><article><i class="fa-solid fa-arrow-trend-up"></i><div><span>01 · Commercial DCF · Vikram Mehta, MAI</span><h3>Submarket industrial cap rates compressed 25 bps following transit hub expansion.</h3><p>Your Eastgate Logistics asset benefits from 32-foot clear-height scarcity, supporting a $1.4M upward valuation revision.</p></div></article><article><i class="fa-solid fa-users"></i><div><span>02 · Residential AVM · Ananya Rao, MRICS</span><h3>Corner-lot and view-corridor adjustments added +6.4% over baseline zip-code median.</h3><p>Eighteen closed arm's-length deeds within 0.4 miles confirm strong luxury buyer liquidity.</p></div></article><article><i class="fa-solid fa-gauge-high"></i><div><span>03 · Tax Assessment Advisory · Elena Vance, AICP</span><h3>Municipal tax roll over-assessed Parcel #214 by 14.2% relative to comparable sales.</h3><p>We have prepared an evidence packet ready for your county board of equalization filing.</p></div></article></div><a class="dashboard-cta" href="404.html">Schedule 1:1 appraiser briefing <i class="fa-solid fa-arrow-right"></i></a>
+      </section>
+
+      <section aria-labelledby="client-preferences-title" class="dashboard-panel" data-panel="preferences">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Portal preferences</span><h2 id="client-preferences-title">Customize your valuation reporting workspace.</h2><p>Manage automated AVM alert thresholds, lender sharing permissions, and export formats.</p></div></div>
+        <section class="dashboard-section"><div class="dashboard-setting-row"><div><i class="fa-solid fa-bell"></i><div><strong>Submarket comp &amp; cap-rate alerts</strong><span>Notify me whenever a comparable property closes within 0.5 miles of my portfolio.</span></div></div><span class="dashboard-status">On</span></div><div class="dashboard-setting-row"><div><i class="fa-solid fa-chart-simple"></i><div><strong>Lender underwriting portal link</strong><span>Allow authorized bank credit officers to view signed USPAP dossiers directly.</span></div></div><span class="dashboard-status">Enabled</span></div><div class="dashboard-setting-row"><div><i class="fa-solid fa-file-lines"></i><div><strong>Default valuation export bundle</strong><span>Include PDF narrative, MISMO XML, and Excel DCF sensitivity workbook.</span></div></div><span class="dashboard-status">Active</span></div><div class="dashboard-section__head dashboard-settings-cta"><div><span class="dashboard-eyebrow">Configuration</span><h3>Need to connect an ERP or loan origination system?</h3></div><a class="dashboard-cta" href="404.html">Open API &amp; webhook settings <i class="fa-solid fa-arrow-right"></i></a></div></section>
+      </section>
+    </main>
+  </div>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>

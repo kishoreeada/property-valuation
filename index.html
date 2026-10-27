@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stackly Property Valuation — precision real estate appraisal, automated valuation models (AVM), commercial DCF analysis, and USPAP-certified property intelligence.">
+  <title>Stackly Property Valuation — Precision Real Estate Appraisal &amp; AVM Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fontawesome-all.min.css">
+  <link rel="stylesheet" href="CSS/shared.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- Stackly Property Valuation theme logo: local optimized WebP (<100KB) -->
+</head>
+<body>
+
+<header class="site-header" data-header>
+  <div class="site-header__inner">
+    <a class="site-brand" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html" class="is-active" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="site-header__actions">
+      <a class="site-header__login" href="login.html">Login</a>
+      <a class="site-header__signup" href="signup.html">Sign Up</a>
+    </div>
+
+    <button class="site-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__top">
+    <a class="site-brand" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a>
+    <button class="mobile-menu__close" type="button" aria-label="Close navigation">×</button>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="index.html" class="is-active" aria-current="page">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="mobile-menu__actions">
+    <a class="site-header__signup" href="signup.html">Sign Up</a>
+    <a class="site-header__login" href="login.html">Login</a>
+  </div>
+</div>
+
+<main>
+  <!-- =========================================================
+       SECTION 1: HERO — INTERACTIVE PROPERTY VALUATION CONSOLE
+       ========================================================= -->
+  <section class="hero" id="home" aria-labelledby="hero-title">
+    <div class="hero__ambient hero__ambient--one" aria-hidden="true"></div>
+    <div class="hero__ambient hero__ambient--two" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="eyebrow text-reveal" data-aos="fade-up" data-aos-duration="700">
+          <span class="eyebrow__dot"></span>
+          Institutional Property Valuation &amp; AVM Intelligence
+        </div>
+
+        <h1 id="hero-title" data-hero-title aria-label="Value every property with institutional precision.">
+          <span class="word-line">Value every property with</span><span class="word-line word-line--accent">institutional precision.</span>
+        </h1>
+
+        <p class="hero__lead text-reveal" data-aos="fade-up" data-aos-delay="120" data-aos-duration="800">
+          Unite hedonic Automated Valuation Models (AVM), commercial DCF cash-flow underwriting, and MAI/RICS-certified appraisal workflows in one real-time valuation platform—so lenders, REITs, and owners price assets with verified market evidence.
+        </p>
+
+        <div class="hero__actions" data-aos="fade-up" data-aos-delay="220" data-aos-duration="800">
+          <a class="button button--primary magnetic-button" href="404.html">
+            Run instant AVM valuation
+            <span class="button__arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="button button--secondary magnetic-button" href="404.html">Request certified appraisal</a>
+        </div>
+
+        <div class="hero__proof" data-aos="fade-up" data-aos-delay="320" data-aos-duration="800">
+          <div class="proof__item">
+            <strong><span class="counter" data-value="98.4" data-decimals="1">98.4</span>%</strong>
+            <span>list-to-sale AVM accuracy</span>
+          </div>
+          <div class="proof__divider" aria-hidden="true"></div>
+          <div class="proof__item">
+            <strong><span class="counter" data-value="4.2" data-decimals="1">4.2</span>x</strong>
+            <span>faster appraisal turnaround</span>
+          </div>
+          <div class="proof__divider" aria-hidden="true"></div>
+          <div class="proof__item">
+            <strong><span class="counter" data-value="240" data-decimals="0">240</span>K+</strong>
+            <span>verified parcel comps</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual" id="dashboard" aria-label="Property valuation console preview" data-aos="fade-left" data-aos-duration="1000">
+        <div class="dashboard-shell">
+          <div class="dashboard-topbar">
+            <div>
+              <span class="dashboard-kicker">Interactive appraisal console</span>
+              <strong>Skyline Mixed-Use &amp; Residential AVM</strong>
+            </div>
+            <span class="status"><i></i> Live MLS &amp; GIS Feed</span>
+          </div>
+
+          <div class="studio-media">
+            <img src="assets/hero-valuation-studio.webp" alt="Chief real estate appraiser analyzing a 3D urban property valuation model" width="960" height="540">
+            <div class="studio-media__overlay">
+              <span class="studio-pill"><i class="fa-solid fa-building-circle-check" aria-hidden="true"></i> Parcel #409 · Market Value $14.85M</span>
+              <span class="studio-mentor">Vikram Mehta, MAI · Chief Valuation Officer</span>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <article class="metric-card" data-aos="zoom-in-up" data-aos-delay="80">
+              <span>AVM confidence</span>
+              <strong>96.8%</strong>
+              <small class="positive">±1.4% error spread</small>
+            </article>
+            <article class="metric-card" data-aos="zoom-in-up" data-aos-delay="80">
+              <span>Verified comps</span>
+              <strong>42 / 45</strong>
+              <small class="positive">+9 closed this month</small>
+            </article>
+            <article class="metric-card" data-aos="zoom-in-up" data-aos-delay="80">
+              <span>Implied cap rate</span>
+              <strong>7.42%</strong>
+              <small class="positive">+38 bps vs submarket</small>
+            </article>
+          </div>
+
+          <div class="chart-card" data-aos="fade-up" data-aos-delay="160">
+            <div class="chart-heading">
+              <div>
+                <span>Assessed value trajectory</span>
+                <strong>Q1 2025 — Q4 2026</strong>
+              </div>
+              <span class="chart-badge">+14.8% YoY</span>
+            </div>
+            <div class="chart" aria-hidden="true">
+              <div class="chart__grid"></div>
+              <svg viewBox="0 0 640 220" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="area" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="#f59e0b" stop-opacity=".38"/>
+                    <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+                  </linearGradient>
+                </defs>
+                <path class="chart__area" d="M0 184 C52 170 86 168 128 138 S198 118 232 126 S294 84 330 98 S392 66 430 78 S490 50 530 60 S594 32 640 18 V220 H0 Z"/>
+                <path class="chart__line" d="M0 184 C52 170 86 168 128 138 S198 118 232 126 S294 84 330 98 S392 66 430 78 S490 50 530 60 S594 32 640 18"/>
+                <circle cx="530" cy="60" r="5" class="chart__point"/>
+                <circle cx="640" cy="18" r="6" class="chart__point chart__point--last"/>
+              </svg>
+              <div class="chart__months"><span>Q1 25</span><span>Q2 25</span><span>Q3 25</span><span>Q1 26</span><span>Q2 26</span><span>Q4 26</span></div>
+            </div>
+          </div>
+
+          <div class="dashboard-bottom">
+            <div class="signal-card" data-aos="fade-right" data-aos-delay="220">
+              <span>Appraisal certification</span>
+              <strong>USPAP &amp; RICS Red-Book compliance check passed for lender underwriting.</strong>
+              <div class="signal-line"><span></span></div>
+            </div>
+            <div class="mini-bars" data-aos="fade-left" data-aos-delay="280" aria-hidden="true">
+              <span style="--h:48%"></span><span style="--h:64%"></span><span style="--h:58%"></span>
+              <span style="--h:76%"></span><span style="--h:70%"></span><span style="--h:88%"></span>
+              <span style="--h:84%"></span><span style="--h:96%"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-note floating-note--top" data-float>
+          <span class="note-icon">↗</span>
+          <div><strong>$482 / sq.ft</strong><small>Submarket median</small></div>
+        </div>
+
+        <div class="floating-note floating-note--bottom" data-float>
+          <span class="note-icon note-icon--dark">◉</span>
+          <div><strong>USPAP Signed</strong><small>Bank-ready dossier</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll to explore</span><i></i>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 2: INTERACTIVE ASSET VALUATION WORKSPACE
+       ========================================================= -->
+  <section class="insights-section" id="about" aria-labelledby="insights-title">
+    <span id="insights" class="anchor-target" aria-hidden="true"></span>
+    <div class="insights__container">
+      <div class="insights__intro">
+        <div class="section-kicker" data-aos="fade-up">
+          <span class="section-kicker__line"></span>
+          One valuation engine. Every property class.
+        </div>
+        <h2 id="insights-title" data-text-reveal>
+          Calibrate true market value
+          <span>across every asset type.</span>
+        </h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+          Synthesize deed registries, spatial GIS heatmaps, rent-roll cash flows, and replacement cost schedules inside a single auditable valuation workspace.
+        </p>
+      </div>
+
+      <div class="insights__workspace">
+        <div class="insights__side" data-aos="fade-right">
+          <div class="signal-nav" role="tablist" aria-label="Property valuation models">
+            <button class="signal-nav__item is-active" type="button" role="tab" aria-selected="true" data-signal="growth">
+              <span class="signal-nav__icon">↗</span>
+              <span><strong>Residential &amp; Luxury AVM</strong><small>Hedonic pricing, MLS comps &amp; micro-market indices</small></span>
+            </button>
+            <button class="signal-nav__item" type="button" role="tab" aria-selected="false" data-signal="customers">
+              <span class="signal-nav__icon">◎</span>
+              <span><strong>Commercial &amp; Income DCF</strong><small>NOI cap rates, tenant rollups &amp; 10-yr cash flows</small></span>
+            </button>
+            <button class="signal-nav__item" type="button" role="tab" aria-selected="false" data-signal="operations">
+              <span class="signal-nav__icon">◌</span>
+              <span><strong>Land, Industrial &amp; HBU</strong><small>FAR zoning entitlements &amp; replacement cost</small></span>
+            </button>
+          </div>
+
+          <div class="insights__quote">
+            <span>INSTITUTIONAL UNDERWRITING BENCHMARK</span>
+            <strong>Hybrid AVM + appraiser review cuts loan underwriting variance by 62%.</strong>
+            <p>Lenders and REIT acquisitions teams using Stackly complete collateral valuation audits in 24 hours instead of 3 weeks.</p>
+            <div class="quote-meter"><i></i></div>
+          </div>
+        </div>
+
+        <div class="analytics-panel" data-aos="fade-left" data-aos-delay="120">
+          <div class="analytics-panel__header">
+            <div>
+              <span class="panel-label">Live valuation model telemetry</span>
+              <h3 data-panel-title>Residential &amp; Luxury AVM</h3>
+            </div>
+            <button class="period-select" type="button" aria-label="Current valuation cycle">Q4 2026 Index <span>⌄</span></button>
+          </div>
+
+          <div class="analytics-kpis">
+            <article class="insight-kpi">
+              <span>Valued parcels</span>
+              <strong><span class="insight-counter" data-target="84.2" data-suffix="K">84.2K</span></strong>
+              <small class="trend up">↑ 26.8% <em>this quarter</em></small>
+            </article>
+            <article class="insight-kpi">
+              <span>AVM precision</span>
+              <strong><span class="insight-counter" data-target="98.4" data-suffix="%">98.4%</span></strong>
+              <small class="trend up">↑ 3.2% <em>within ±2% sale price</em></small>
+            </article>
+            <article class="insight-kpi">
+              <span>Lender sign-off</span>
+              <strong><span class="insight-counter" data-target="99.2" data-suffix="%">99.2%</span></strong>
+              <small class="trend up">↑ 4.5% <em>zero-revision pass</em></small>
+            </article>
+          </div>
+
+          <div class="insight-chart-card">
+            <div class="insight-chart-card__head">
+              <div>
+                <span>Composite valuation index</span>
+                <strong data-chart-value>142.6</strong>
+              </div>
+              <div class="chart-legend"><i></i> Hedonic AVM Curve <span></span> Unadjusted Tax Roll</div>
+            </div>
+
+            <div class="insight-chart" aria-hidden="true">
+              <div class="insight-chart__y"><span>150</span><span>130</span><span>110</span><span>90</span><span>70</span></div>
+              <div class="insight-chart__plot">
+                <div class="insight-chart__grid"></div>
+                <svg viewBox="0 0 720 250" preserveAspectRatio="none">
+                  <path class="target-line" d="M0 162 C75 154 105 146 160 144 S250 138 310 128 S410 116 470 109 S575 96 720 78"/>
+                  <path class="actual-area" d="M0 182 C55 174 92 180 130 154 S205 146 242 126 S302 135 342 106 S408 116 448 89 S520 98 560 71 S635 74 720 38 V250 H0 Z"/>
+                  <path class="actual-line" d="M0 182 C55 174 92 180 130 154 S205 146 242 126 S302 135 342 106 S408 116 448 89 S520 98 560 71 S635 74 720 38"/>
+                  <circle class="chart-marker" cx="560" cy="71" r="6"/>
+                </svg>
+                <div class="insight-chart__x"><span>INTAKE</span><span>COMP MATCH</span><span>DCF / COST</span><span>CERTIFIED</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="insight-bottom">
+            <div class="driver-list">
+              <div class="driver-list__head"><span>Valuation weightings</span><strong>Model attribution</strong></div>
+              <div class="driver"><span><i class="driver-dot driver-dot--one"></i>Comparable sales adjustments</span><b>46%</b><em><i style="--w:84%"></i></em></div>
+              <div class="driver"><span><i class="driver-dot driver-dot--two"></i>Income &amp; DCF capitalization</span><b>34%</b><em><i style="--w:64%"></i></em></div>
+              <div class="driver"><span><i class="driver-dot driver-dot--three"></i>Geospatial &amp; replacement cost</span><b>20%</b><em><i style="--w:42%"></i></em></div>
+            </div>
+            <div class="decision-card">
+              <span>Sample institutional dossier</span>
+              <strong>USPAP &amp; RICS Commercial Appraisal Report</strong>
+              <p>Inspect a complete 42-page valuation package with sensitivity matrices and comp maps.</p>
+              <a class="decision-card__cta" href="404.html">Download sample report <b>↗</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 3: 3-PILLAR VALUATION METHODOLOGY
+       ========================================================= -->
+  <section class="decision-section" id="methodology" aria-labelledby="method-title">
+    <div class="decision__container">
+      <div class="decision__intro">
+        <div class="section-kicker" data-aos="fade-up">
+          <span class="section-kicker__line"></span>
+          From raw parcel records to bank-ready certainty
+        </div>
+        <h2 id="method-title">
+          Ingest the parcel.<br><span>Certify the market value.</span>
+        </h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+          Replace slow spreadsheet appraisals with a three-stage valuation engine that reconciles geospatial data, multi-approach modeling, and certified MAI/MRICS review.
+        </p>
+      </div>
+
+      <div class="decision-flow">
+        <article class="decision-feature decision-feature--alert" data-aos="fade-up" data-aos-delay="60">
+          <div class="feature-top">
+            <span class="feature-number">01</span>
+            <span class="feature-type">Geospatial intake</span>
+          </div>
+          <div class="alert-visual">
+            <span class="alert-pulse"></span>
+            <div>
+              <small>Parcel &amp; deed registry synced</small>
+              <strong>Auto-matched 18 comps · Saved 6.5h</strong>
+            </div>
+            <span class="alert-arrow">↗</span>
+          </div>
+          <div class="feature-copy">
+            <h3>Verify every parcel attribute.</h3>
+            <p>Automatically pull municipal tax rolls, zoning FAR envelopes, flood plains, and historical deed transfers in seconds.</p>
+          </div>
+        </article>
+
+        <article class="decision-feature decision-feature--cause" data-aos="fade-up" data-aos-delay="140">
+          <div class="feature-top">
+            <span class="feature-number">02</span>
+            <span class="feature-type">Tri-approach engine</span>
+          </div>
+          <div class="cause-visual">
+            <div class="cause-node cause-node--main">AVM Core <b>Live</b></div>
+            <span class="cause-connector cause-connector--one"></span>
+            <span class="cause-connector cause-connector--two"></span>
+            <div class="cause-node cause-node--a">Comps <b>18/18</b></div>
+            <div class="cause-node cause-node--b">Spread <b>±1.4%</b></div>
+          </div>
+          <div class="feature-copy">
+            <h3>Reconcile Sales, Income &amp; Cost.</h3>
+            <p>Run hedonic comparable adjustments alongside 10-year DCF cash flows and Marshall &amp; Swift replacement cost schedules.</p>
+          </div>
+        </article>
+
+        <article class="decision-feature decision-feature--priority" data-aos="fade-up" data-aos-delay="220">
+          <div class="feature-top">
+            <span class="feature-number">03</span>
+            <span class="feature-type">Certified sign-off</span>
+          </div>
+          <div class="priority-visual">
+            <div class="priority-item priority-item--high">
+              <span><i></i>USPAP &amp; FIRREA compliance</span><b>Passed</b>
+            </div>
+            <div class="priority-item">
+              <span><i></i>Cap-rate sensitivity audit</span><b>98.4%</b>
+            </div>
+            <div class="priority-item">
+              <span><i></i>MAI / RICS digital seal</span><b>Verified</b>
+            </div>
+          </div>
+          <div class="feature-copy">
+            <h3>Deliver audit-proof appraisals.</h3>
+            <p>Every valuation is reviewed and sealed by licensed MAI and RICS appraisers for credit committees, courts, and tax boards.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="decision-strip" data-aos="zoom-in-up" data-aos-delay="100">
+        <div class="decision-strip__mark"><span></span></div>
+        <div>
+          <span>Defensible valuation evidence</span>
+          <strong>Less guesswork on comparable adjustments. More transparency for credit and investment committees.</strong>
+        </div>
+        <div class="decision-strip__stats">
+          <div><strong><span class="decision-counter" data-target="98">98</span>%</strong><small>lender acceptance</small></div>
+          <div><strong><span class="decision-counter" data-target="4">4</span>x</strong><small>faster closing cycle</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 4: FILTERABLE PROPERTY VALUATION SUITE CATALOG
+       ========================================================= -->
+  <section class="catalog-section" id="courses" aria-labelledby="catalog-title">
+    <div class="catalog__container">
+      <div class="catalog__header">
+        <div>
+          <div class="section-kicker" data-aos="fade-up">
+            <span class="section-kicker__line"></span>
+            Valuation &amp; appraisal suite
+          </div>
+          <h2 id="catalog-title">Appraisal products built for<br><span>lenders, REITs &amp; owners.</span></h2>
+        </div>
+        <p data-aos="fade-left" data-aos-delay="100">
+          Every valuation package combines automated geospatial comps, multi-scenario sensitivity tables, and digital sign-off from certified domain appraisers.
+        </p>
+      </div>
+
+      <div class="catalog-toolbar" data-aos="fade-up" data-aos-delay="80">
+        <div class="catalog-filters" role="tablist" aria-label="Filter valuation products by asset class">
+          <button class="catalog-filter is-active" type="button" role="tab" aria-selected="true" data-filter="all">All Asset Classes</button>
+          <button class="catalog-filter" type="button" role="tab" aria-selected="false" data-filter="ai">Residential &amp; Luxury</button>
+          <button class="catalog-filter" type="button" role="tab" aria-selected="false" data-filter="engineering">Commercial &amp; Industrial</button>
+          <button class="catalog-filter" type="button" role="tab" aria-selected="false" data-filter="design">Land &amp; HBU Advisory</button>
+        </div>
+        <div class="catalog-meta">
+          <span class="catalog-meta__dot"></span>
+          <strong data-catalog-status>Showing 4 flagship valuation suites</strong>
+        </div>
+      </div>
+
+      <div class="catalog-deck" data-catalog-deck>
+        <article class="catalog-card" data-category="ai" data-aos="fade-up" data-aos-delay="60">
+          <div class="catalog-card__media">
+            <img src="assets/valuation-residential.webp" alt="Contemporary luxury residential property with glowing parcel boundary lines" width="800" height="600" loading="lazy">
+            <span class="catalog-card__badge">Residential · Instant AVM</span>
+            <span class="catalog-card__rating">★ 4.9 (3.2K)</span>
+          </div>
+          <div class="catalog-card__body">
+            <div class="catalog-card__tags">
+              <span>24h Turnaround</span><span>50+ Comp Metrics</span><span>USPAP Desktop / Full</span>
+            </div>
+            <h3>Residential, Multifamily &amp; Luxury Estate Valuation</h3>
+            <p>Deliver precision hedonic AVM valuations and full interior/exterior appraisals with automated MLS comp adjustments and neighborhood liquidity scores.</p>
+            <div class="catalog-card__footer">
+              <div class="catalog-card__mentor">
+                <strong>Ananya Rao, MRICS</strong>
+                <small>Head of Residential Valuation</small>
+              </div>
+              <a class="catalog-card__cta" href="404.html">Inspect dossier <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="catalog-card" data-category="engineering" data-aos="fade-up" data-aos-delay="120">
+          <div class="catalog-card__media">
+            <img src="assets/valuation-commercial.webp" alt="Modern commercial office tower and mixed-use urban plaza at sunset" width="800" height="600" loading="lazy">
+            <span class="catalog-card__badge">Commercial · Institutional</span>
+            <span class="catalog-card__rating">★ 4.9 (2.8K)</span>
+          </div>
+          <div class="catalog-card__body">
+            <div class="catalog-card__tags">
+              <span>10-Yr DCF</span><span>Cap Rate Matrix</span><span>Rent Roll Audit</span>
+            </div>
+            <h3>Commercial Office, Retail &amp; Mixed-Use DCF Appraisal</h3>
+            <p>Underwrite complex income-producing properties with tenant credit weighting, lease-expiry waterfalls, and submarket cap-rate compression modeling.</p>
+            <div class="catalog-card__footer">
+              <div class="catalog-card__mentor">
+                <strong>Vikram Mehta, MAI</strong>
+                <small>Chief Commercial Appraiser</small>
+              </div>
+              <a class="catalog-card__cta" href="404.html">Inspect dossier <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="catalog-card" data-category="design" data-aos="fade-up" data-aos-delay="180">
+          <div class="catalog-card__media">
+            <img src="assets/valuation-land.webp" alt="Isometric 3D topographic land parcel map with translucent gold zoning massing blocks" width="800" height="600" loading="lazy">
+            <span class="catalog-card__badge">Land &amp; Zoning · HBU</span>
+            <span class="catalog-card__rating">★ 4.8 (1.9K)</span>
+          </div>
+          <div class="catalog-card__body">
+            <div class="catalog-card__tags">
+              <span>GIS Parcel Map</span><span>FAR Entitlements</span><span>Residual Land DCF</span>
+            </div>
+            <h3>Development Land, Zoning &amp; Highest-Best-Use Advisory</h3>
+            <p>Evaluate raw land, urban infill parcels, and air-rights assemblages using 3D massing envelopes, residual land value models, and entitlement timelines.</p>
+            <div class="catalog-card__footer">
+              <div class="catalog-card__mentor">
+                <strong>Elena Vance, AICP</strong>
+                <small>Director of Land Valuation</small>
+              </div>
+              <a class="catalog-card__cta" href="404.html">Inspect dossier <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="catalog-card" data-category="engineering" data-aos="fade-up" data-aos-delay="240">
+          <div class="catalog-card__media">
+            <img src="assets/valuation-industrial.webp" alt="Modern industrial logistics warehouse and distribution hub at twilight" width="800" height="600" loading="lazy">
+            <span class="catalog-card__badge">Industrial &amp; REIT · Portfolio</span>
+            <span class="catalog-card__rating">★ 4.9 (2.1K)</span>
+          </div>
+          <div class="catalog-card__body">
+            <div class="catalog-card__tags">
+              <span>Replacement Cost</span><span>Clear-Height Specs</span><span>Quarterly NAV</span>
+            </div>
+            <h3>Industrial, Logistics &amp; Cold-Storage Portfolio Valuation</h3>
+            <p>Mark-to-market multi-state logistics hubs, last-mile fulfillment centers, and specialized manufacturing facilities with depreciated cost and income models.</p>
+            <div class="catalog-card__footer">
+              <div class="catalog-card__mentor">
+                <strong>Marcus Thorne, ASA</strong>
+                <small>Principal Industrial Valuer</small>
+              </div>
+              <a class="catalog-card__cta" href="404.html">Inspect dossier <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="catalog-bottom" data-aos="fade-up" data-aos-delay="160">
+        <div class="catalog-bottom__info">
+          <strong>Every appraisal includes a USPAP / RICS compliance certificate &amp; interactive comp map export.</strong>
+          <span>API feeds and bulk portfolio revaluations available for institutional lenders and REITs.</span>
+        </div>
+        <a class="catalog-bottom__cta" href="404.html">Explore all valuation solutions <b>↗</b></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 5: VALUATION CONFIDENCE RADAR & MARKET PULSE
+       ========================================================= -->
+  <section class="pulse-section" id="business-pulse" aria-labelledby="pulse-title">
+    <div class="pulse__container">
+      <div class="pulse__heading">
+        <div>
+          <div class="section-kicker" data-aos="fade-up"><span class="section-kicker__line"></span> Market &amp; collateral intelligence at a glance</div>
+          <h2 id="pulse-title">One valuation radar.<br><span>Every risk signal verified.</span></h2>
+        </div>
+        <p data-aos="fade-left" data-aos-delay="120">Give credit committees, asset managers, and property owners a transparent, audit-ready view of asset value—benchmarked against live submarket transactions.</p>
+      </div>
+
+      <div class="pulse-board" data-aos="zoom-in-up" data-aos-delay="80">
+        <div class="pulse-board__top">
+          <div class="pulse-tabs" role="tablist" aria-label="Property sector benchmarks">
+            <button class="pulse-tab is-active" type="button" role="tab" aria-selected="true" data-pulse="executive">Residential AVM</button>
+            <button class="pulse-tab" type="button" role="tab" aria-selected="false" data-pulse="sales">Commercial Office</button>
+            <button class="pulse-tab" type="button" role="tab" aria-selected="false" data-pulse="finance">Retail &amp; Hospitality</button>
+            <button class="pulse-tab" type="button" role="tab" aria-selected="false" data-pulse="operations">Industrial &amp; Land</button>
+          </div>
+          <span class="pulse-live"><i></i> Live market telemetry</span>
+        </div>
+
+        <div class="pulse-board__body">
+          <div class="pulse-score">
+            <span class="pulse-label">Valuation confidence score</span>
+            <div class="pulse-score__value"><strong data-pulse-score>91</strong><small>/100</small></div>
+            <div class="pulse-score__meter"><i data-score-meter></i></div>
+            <div class="pulse-score__meta"><span>↑ 14.8% YoY index</span><em>Investment-Grade</em></div>
+          </div>
+
+          <div class="pulse-radar" aria-label="Property valuation dimensions">
+            <div class="radar-grid radar-grid--outer"></div><div class="radar-grid radar-grid--middle"></div><div class="radar-grid radar-grid--inner"></div>
+            <div class="radar-axis radar-axis--v"></div><div class="radar-axis radar-axis--h"></div>
+            <div class="radar-shape" data-radar-shape></div>
+            <span class="radar-label radar-label--top">Comp Density</span><span class="radar-label radar-label--right">NOI Stability</span>
+            <span class="radar-label radar-label--bottom">Condition Index</span><span class="radar-label radar-label--left">Liquidity</span>
+          </div>
+
+          <div class="pulse-insights">
+            <div class="pulse-insights__head"><span>Verified market signals</span><strong data-signal-count>4</strong></div>
+            <article class="pulse-signal pulse-signal--positive"><i>↑</i><div><strong>Price per Sq.Ft.</strong><small>Submarket closed deed median</small></div><b>$482/sf</b></article>
+            <article class="pulse-signal pulse-signal--positive"><i>↗</i><div><strong>Cap Rate Spread</strong><small>Risk-adjusted NOI yield</small></div><b>7.42%</b></article>
+            <article class="pulse-signal pulse-signal--watch"><i>★</i><div><strong>Appraisal Variance</strong><small>AVM vs final closing price</small></div><b>±1.4%</b></article>
+            <article class="pulse-signal"><i>•</i><div><strong>Absorption Velocity</strong><small>Median submarket days on market</small></div><b>24 days</b></article>
+          </div>
+        </div>
+
+        <div class="pulse-board__footer">
+          <div class="pulse-footnote"><span></span> Calibrated continuously from recorded deeds, MLS feeds, and certified appraiser inspections</div>
+          <a href="404.html" class="pulse-link">Export valuation scorecard <b>↗</b></a>
+        </div>
+      </div>
+
+      <div class="pulse-principles" data-aos="fade-up" data-aos-delay="160">
+        <div><span>01</span><strong>Verified by closed deeds</strong><small>Every comp is cross-checked against county recorder filings.</small></div>
+        <div><span>02</span><strong>USPAP &amp; RICS compliant</strong><small>Formatted for bank underwriting and institutional audit.</small></div>
+        <div><span>03</span><strong>Instant sensitivity runs</strong><small>Stress-test interest rates, vacancy, and exit cap rates live.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 6: 4-PHASE APPRAISAL LIFECYCLE TIMELINE
+       ========================================================= -->
+  <section class="journey-section" id="performance-journey" aria-labelledby="journey-title">
+    <div class="journey__container">
+      <div class="journey__intro">
+        <div class="section-kicker" data-aos="fade-up">
+          <span class="section-kicker__line"></span>
+          Transparent appraisal workflow
+        </div>
+        <h2 id="journey-title">Track every valuation<br><span>from parcel intake to seal.</span></h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+          Replace opaque multi-week appraisal delays with a structured 4-stage valuation pipeline. See how raw property data becomes a certified, bank-ready valuation report.
+        </p>
+      </div>
+
+      <div class="journey__stage" data-aos="fade-up" data-aos-delay="120">
+        <div class="journey__rail" aria-hidden="true">
+          <span class="journey__rail-progress"></span>
+        </div>
+
+        <article class="journey-moment journey-moment--q1">
+          <div class="journey-moment__dot"><span></span></div>
+          <div class="journey-moment__content">
+            <span class="journey-moment__quarter">STAGE 01 · PARCEL INGESTION</span>
+            <h3>Sync deed &amp; GIS records.</h3>
+            <p>Ingest parcel boundaries, zoning overlays, tax assessments, and building permits automatically.</p>
+            <div class="journey-metric"><strong><span class="journey-count" data-target="82">82</span></strong><small>data points</small></div>
+          </div>
+        </article>
+
+        <article class="journey-moment journey-moment--q2">
+          <div class="journey-moment__dot"><span></span></div>
+          <div class="journey-moment__content">
+            <span class="journey-moment__quarter">STAGE 02 · COMP CALIBRATION</span>
+            <h3>Weight comparable sales.</h3>
+            <p>Apply hedonic regression and spatial distance decay to score the closest recent transactions.</p>
+            <div class="journey-metric"><strong><span class="journey-count" data-target="108">108</span></strong><small>comp index</small></div>
+          </div>
+        </article>
+
+        <article class="journey-moment journey-moment--q3">
+          <div class="journey-moment__dot"><span></span></div>
+          <div class="journey-moment__content">
+            <span class="journey-moment__quarter">STAGE 03 · DCF &amp; COST MODEL</span>
+            <h3>Stress-test cash flows.</h3>
+            <p>Reconcile NOI capitalization, tenant lease rollups, and depreciated replacement cost schedules.</p>
+            <div class="journey-metric"><strong><span class="journey-count" data-target="126">126</span></strong><small>model score</small></div>
+          </div>
+        </article>
+
+        <article class="journey-moment journey-moment--q4">
+          <div class="journey-moment__dot"><span></span></div>
+          <div class="journey-moment__content">
+            <span class="journey-moment__quarter">STAGE 04 · MAI / RICS SEAL</span>
+            <h3>Issue certified dossier.</h3>
+            <p>Deliver a signed USPAP &amp; RICS compliant appraisal report ready for credit committee approval.</p>
+            <div class="journey-metric"><strong><span class="journey-count" data-target="144">144</span></strong><small>value index</small></div>
+          </div>
+        </article>
+
+        <div class="journey-target">
+          <span>Underwriting speed</span>
+          <strong>-74%</strong>
+          <small>appraisal turnaround time</small>
+        </div>
+      </div>
+
+      <div class="journey-footer" data-aos="zoom-in-up" data-aos-delay="180">
+        <div class="journey-footer__signal">
+          <span class="journey-footer__icon">↗</span>
+          <div><small>SLA delivery signal</small><strong>98.6% of commercial and residential valuation dossiers are delivered ahead of lender SLA deadlines.</strong></div>
+        </div>
+        <div class="journey-footer__number"><strong>24h</strong><small>desktop AVM SLA</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 7: CONNECTED PROPERTY DATA ECOSYSTEM
+       ========================================================= -->
+  <section class="connect-section" id="services" aria-labelledby="connect-title">
+    <div class="connect__container">
+      <div class="connect__header">
+        <div>
+          <div class="section-kicker" data-aos="fade-up">
+            <span class="section-kicker__line"></span>
+            From fragmented registries to one valuation core
+          </div>
+          <h2 id="connect-title">Unite every property data feed<br><span>into one valuation engine.</span></h2>
+        </div>
+        <p data-aos="fade-left" data-aos-delay="120">
+          Stop reconciling county tax PDFs, disconnected MLS exports, and manual rent rolls by hand. Stackly synthesizes every real estate signal automatically.
+        </p>
+      </div>
+
+      <div class="connect-flow" data-aos="fade-up" data-aos-delay="100">
+        <div class="connect-sources">
+          <div class="connect-source connect-source--crm" data-source="crm">
+            <span class="connect-source__icon">⌂</span>
+            <div><strong>MLS &amp; Deed Registries</strong><small>Live closed transaction feeds</small></div>
+            <b>Synced</b>
+          </div>
+          <div class="connect-source connect-source--finance" data-source="finance">
+            <span class="connect-source__icon">⊕</span>
+            <div><strong>GIS &amp; Zoning Maps</strong><small>Parcel bounds, FAR &amp; flood layers</small></div>
+            <b>Synced</b>
+          </div>
+          <div class="connect-source connect-source--ops" data-source="ops">
+            <span class="connect-source__icon">$</span>
+            <div><strong>Rent Rolls &amp; DCF</strong><small>NOI, OpEx &amp; cap-rate curves</small></div>
+            <b>Synced</b>
+          </div>
+          <div class="connect-source connect-source--marketing" data-source="marketing">
+            <span class="connect-source__icon">✦</span>
+            <div><strong>Cost &amp; Permit Logs</strong><small>Replacement cost &amp; renovations</small></div>
+            <b>Synced</b>
+          </div>
+        </div>
+
+        <div class="connect-bridge" aria-hidden="true">
+          <span class="connect-bridge__line connect-bridge__line--one"></span>
+          <span class="connect-bridge__line connect-bridge__line--two"></span>
+          <span class="connect-bridge__line connect-bridge__line--three"></span>
+          <div class="connect-core">
+            <span class="connect-core__ring"></span>
+            <span class="connect-core__pulse"></span>
+            <strong>HEDONIC &amp; DCF<br>VALUATION CORE</strong>
+            <small>Live telemetry</small>
+          </div>
+        </div>
+
+        <div class="connect-output">
+          <div class="connect-output__eyebrow"><i></i> Certified valuation output</div>
+          <div class="connect-output__value"><strong>1</strong><span>audit-ready appraisal<br>dossier</span></div>
+          <div class="connect-output__bars" aria-hidden="true">
+            <span style="--bar:48%"></span><span style="--bar:68%"></span><span style="--bar:62%"></span><span style="--bar:84%"></span><span style="--bar:78%"></span><span style="--bar:95%"></span><span style="--bar:92%"></span>
+          </div>
+          <div class="connect-output__meta"><span>Comps</span><span>DCF</span><span>USPAP Seal</span></div>
+        </div>
+      </div>
+
+      <div class="connect-bottom" data-aos="fade-up" data-aos-delay="180">
+        <div class="connect-proof">
+          <span class="connect-proof__number">240K+</span>
+          <div><strong>verified property comps indexed</strong><small>Across residential, commercial, industrial, and land sectors</small></div>
+        </div>
+        <div class="connect-tags">
+          <span>Residential AVM</span><span>Commercial DCF</span><span>Industrial REIT</span><span>Land &amp; HBU</span>
+        </div>
+        <a class="connect-cta" href="404.html">Explore valuation data architecture <b>↗</b></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 8: LIVE CHIEF APPRAISER REVIEW ROOM
+       ========================================================= -->
+  <section class="decision-section" id="decision-room" aria-labelledby="mentor-room-title">
+    <div class="decision__container">
+      <div class="decision__header">
+        <div>
+          <div class="section-kicker" data-aos="fade-up"><span class="section-kicker__line"></span> Chief appraiser review desk</div>
+          <h2 id="mentor-room-title">Defensible valuations,<br><span>backed by certified appraisers.</span></h2>
+        </div>
+        <p data-aos="fade-left" data-aos-delay="120">Step into daily valuation committee reviews, cap-rate stress tests, and USPAP sign-off briefings led by MAI, RICS, and ASA-designated directors.</p>
+      </div>
+
+      <div class="decision-room" data-aos="zoom-in-up" data-aos-delay="100">
+        <div class="decision-room__top">
+          <div class="decision-room__title"><span class="decision-room__status"><i></i> Appraisal committee</span><strong>Active valuation briefings</strong></div>
+          <div class="decision-room__date">Updated 10 min ago</div>
+        </div>
+
+        <div class="decision-list">
+          <button class="decision-item is-active" type="button" data-decision="expansion">
+            <span class="decision-item__rank">01</span><span class="decision-item__icon">↗</span>
+            <span class="decision-item__copy"><strong>Class-A Commercial Tower DCF &amp; Cap-Rate Review</strong><small>10-year NOI cash-flow sensitivity &amp; tenant credit audit.</small></span>
+            <span class="decision-item__impact">$42.8M</span><span class="decision-item__arrow">↗</span>
+          </button>
+          <button class="decision-item" type="button" data-decision="conversion">
+            <span class="decision-item__rank">02</span><span class="decision-item__icon">◎</span>
+            <span class="decision-item__copy"><strong>Luxury Residential Portfolio Hedonic AVM Calibration</strong><small>Micro-neighborhood comp weighting &amp; view-premium adjustments.</small></span>
+            <span class="decision-item__impact">$18.4M</span><span class="decision-item__arrow">↗</span>
+          </button>
+          <button class="decision-item" type="button" data-decision="capacity">
+            <span class="decision-item__rank">03</span><span class="decision-item__icon">◌</span>
+            <span class="decision-item__copy"><strong>Industrial Logistics Hub Replacement Cost &amp; Zoning Audit</strong><small>Depreciated cost schedule &amp; cold-storage clear-height premium.</small></span>
+            <span class="decision-item__impact">$64.0M</span><span class="decision-item__arrow">↗</span>
+          </button>
+        </div>
+
+        <aside class="decision-detail" aria-live="polite">
+          <div class="decision-detail__top"><span>APPRAISAL DOSSIER BRIEFING</span><b data-decision-priority>USPAP VERIFIED</b></div>
+          <h3 data-decision-title>Class-A Commercial Tower DCF &amp; Cap-Rate Review.</h3>
+          <p data-decision-copy>Walk through the 10-year discounted cash flow model, terminal cap-rate matrix, and WALT lease rollover assumptions with Chief Appraiser Vikram Mehta, MAI.</p>
+          <div class="decision-detail__stats">
+            <div><strong data-decision-confidence>98.4%</strong><small>confidence score</small></div>
+            <div><strong data-decision-time>24 hrs</strong><small>turnaround SLA</small></div>
+            <div><strong data-decision-owner>MAI Desk</strong><small>lead signatory</small></div>
+          </div>
+          <a class="decision-detail__cta" href="404.html">Schedule appraiser review <b>↗</b></a>
+        </aside>
+      </div>
+
+      <div class="decision-proof" data-aos="fade-up" data-aos-delay="180">
+        <div><span>01</span><strong>Submit Parcel</strong><small>Enter address or APN ID.</small></div>
+        <div><span>02</span><strong>Run AVM &amp; Comps</strong><small>Generate instant baseline.</small></div>
+        <div><span>03</span><strong>Appraiser Audit</strong><small>Verify DCF &amp; physical specs.</small></div>
+        <div><span>04</span><strong>Certify Report</strong><small>Download signed USPAP PDF.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SECTION 9: FINAL CTA — COMMISSION YOUR VALUATION TODAY
+       ========================================================= -->
+  <section class="final-cta" id="get-started" aria-labelledby="final-cta-title">
+    <div class="final-cta__orb final-cta__orb--one" aria-hidden="true"></div>
+    <div class="final-cta__orb final-cta__orb--two" aria-hidden="true"></div>
+    <div class="final-cta__container">
+      <div class="final-cta__eyebrow" data-aos="fade-down">
+        <span></span> Ready when your next transaction is
+      </div>
+
+      <div class="final-cta__main">
+        <div class="final-cta__copy" data-aos="fade-right">
+          <h2 id="final-cta-title">Turn property uncertainty<br><em>into certified market value.</em></h2>
+          <p>Run instant hedonic AVM benchmarks, stress-test commercial DCF models, and commission USPAP &amp; RICS-certified appraisal reports that lenders trust.</p>
+        </div>
+
+        <div class="final-cta__action" data-aos="fade-left" data-aos-delay="120">
+          <a class="final-cta__button" href="404.html">
+            Launch instant valuation
+            <span>↗</span>
+          </a>
+          <a class="final-cta__secondary" href="404.html">Explore appraisal packages <span>→</span></a>
+          <div class="final-cta__trust">
+            <span class="final-cta__avatars" aria-label="Stackly chief appraisers and analysts">
+              <img src="assets/avatars/avatar-mentor.webp" alt="Stackly chief MAI appraiser">
+              <img src="assets/avatars/avatar-learner.webp" alt="Stackly senior valuation analyst">
+              <img src="assets/avatars/avatar-lead.webp" alt="Stackly RICS portfolio director">
+            </span>
+            <span><strong>Trusted by institutional lenders, REITs &amp; property owners.</strong><small>Residential · Commercial · Industrial · Land HBU</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="final-cta__bottom" data-aos="fade-up" data-aos-delay="220">
+        <div><strong>Instant AVM.</strong><span>Real-time hedonic valuation &amp; comp maps.</span></div>
+        <div><strong>Certified appraisers.</strong><span>MAI, RICS &amp; ASA signatory review.</span></div>
+        <div><strong>Lender ready.</strong><span>USPAP &amp; FIRREA compliant dossiers.</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="contact">
+  <div class="site-footer__container">
+    <div class="site-footer__main">
+      <div class="site-footer__brand-col">
+        <a class="site-brand site-brand--footer" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a>
+        <p>Precision property valuation and real estate appraisal intelligence. Combine automated hedonic AVM models, commercial DCF underwriting, and MAI/RICS-certified sign-off.</p>
+        <div class="site-footer__socials" aria-label="Social links">
+          <a href="404.html" aria-label="LinkedIn">in</a>
+          <a href="404.html" aria-label="Instagram">◎</a>
+          <a href="404.html" aria-label="X">𝕏</a>
+          <a href="404.html" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+
+      <div class="site-footer__col">
+        <h3>Explore</h3>
+        <a href="index.html" class="is-active" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="site-footer__col">
+        <h3>Valuation</h3>
+        <a href="404.html">Automated AVM Engine</a>
+        <a href="404.html">Commercial DCF Appraisal</a>
+        <a href="404.html">Portfolio Mark-to-Market</a>
+        <a href="404.html">Land &amp; HBU Advisory</a>
+      </div>
+
+      <div class="site-footer__newsletter">
+        <h3>Stay connected</h3>
+        <p>Get quarterly cap-rate benchmarks, submarket price indices, and valuation research in your inbox.</p>
+        <form class="newsletter-form" novalidate>
+          <label class="sr-only" for="newsletter-email">Email address</label>
+          <div class="newsletter-form__field">
+            <input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Work or institutional email" required>
+            <button type="submit" aria-label="Subscribe to newsletter">↗</button>
+          </div>
+          <small class="newsletter-form__error" role="alert"></small>
+          <small class="newsletter-form__success" role="status">You're subscribed. Thanks.</small>
+        </form>
+      </div>
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>© 2026 Stackly Property Valuation. All rights reserved.</span>
+      <div>
+        <a href="#contact">Privacy</a>
+        <a href="#contact">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.AOS = {
+  init: function() {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    document.querySelectorAll('[data-aos]').forEach(function(el) {
+      el.classList.add('aos-ready');
+      requestAnimationFrame(function(){ el.classList.add('aos-animate'); });
+    });
+  }
+};
+
+window.gsap = {
+  to: function(target, vars) {
+    var els = typeof target === 'string' ? document.querySelectorAll(target) :
+      (target instanceof NodeList || Array.isArray(target) ? target : [target]);
+    els = Array.from(els || []);
+    var duration = Math.max(0.01, (vars.duration || 0.5) * 1000);
+    els.forEach(function(el) {
+      if (!el || !el.style) return;
+      if (vars.opacity != null) el.style.opacity = vars.opacity;
+      if (vars.y != null) el.style.transform = 'translateY(' + vars.y + 'px)';
+      if (vars.rotateY != null) el.style.transform = 'rotateY(' + vars.rotateY + 'deg)';
+      if (vars.rotateX != null) el.style.transform = 'rotateX(' + vars.rotateX + 'deg)';
+      el.style.transition = 'transform ' + duration + 'ms ease, opacity ' + duration + 'ms ease';
+      requestAnimationFrame(function() {
+        if (vars.opacity != null) el.style.opacity = vars.opacity;
+        if (vars.y != null) el.style.transform = 'translateY(0)';
+        if (vars.rotateY != null || vars.rotateX != null) {
+          el.style.transform = 'rotateY(' + (vars.rotateY || 0) + 'deg) rotateX(' + (vars.rotateX || 0) + 'deg)';
+        }
+      });
+    });
+    if (vars.onUpdate) vars.onUpdate();
+    if (vars.onComplete) setTimeout(vars.onComplete, duration);
+    return { kill: function(){} };
+  },
+  from: function(target, vars) {
+    var els = typeof target === 'string' ? document.querySelectorAll(target) : [target];
+    Array.from(els).forEach(function(el) {
+      if (!el || !el.style) return;
+      el.style.opacity = vars.opacity != null ? 0 : 1;
+      el.style.transform = 'translateY(' + (vars.y || 0) + 'px)';
+      setTimeout(function(){
+        el.style.transition = 'transform ' + ((vars.duration || .5)*1000) + 'ms ease, opacity ' + ((vars.duration || .5)*1000) + 'ms ease';
+        el.style.opacity = 1;
+        el.style.transform = 'none';
+      }, (vars.delay || 0)*1000);
+    });
+  }
+};
+</script>
+<script src="script.js"></script>
+</body>
+</html>

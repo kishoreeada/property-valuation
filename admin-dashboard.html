@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Stackly chief appraiser &amp; valuation operations command center">
+<title>Admin Dashboard — Stackly Property Valuation</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/shared.css">
+  <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="assets/fontawesome-all.min.css">
+<link rel="stylesheet" href="CSS/dashboard.css">
+</head>
+<body class="dashboard-page dashboard-admin">
+<div class="dashboard-app">
+  <aside id="dashboard-sidebar" class="dashboard-sidebar" aria-label="Admin dashboard navigation">
+    <div class="dashboard-sidebar__brand">
+      <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+    </div>
+    <div class="dashboard-sidebar__mobile-head">
+      <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+      <button class="dashboard-menu-close" type="button" aria-label="Close dashboard menu"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    </div>
+    <nav class="dashboard-nav" aria-label="Admin workspace tabs">
+      <button type="button" class="dashboard-tab is-active" data-tab="overview" aria-selected="true"><i class="fa-solid fa-gauge-high" aria-hidden="true"></i><span>Overview</span></button><button type="button" class="dashboard-tab" data-tab="users" aria-selected="false"><i class="fa-solid fa-users" aria-hidden="true"></i><span>Appraisers</span></button><button type="button" class="dashboard-tab" data-tab="analytics" aria-selected="false"><i class="fa-solid fa-chart-line" aria-hidden="true"></i><span>AVM Telemetry</span></button><button type="button" class="dashboard-tab" data-tab="reports" aria-selected="false"><i class="fa-solid fa-file-lines" aria-hidden="true"></i><span>Dossiers</span></button><button type="button" class="dashboard-tab" data-tab="settings" aria-selected="false"><i class="fa-solid fa-sliders" aria-hidden="true"></i><span>Settings</span></button>
+    </nav>
+    <div class="dashboard-sidebar__bottom">
+      <button class="dashboard-logout" type="button"><i class="fa-solid fa-arrow-right-from-bracket" aria-hidden="true"></i><span>Log out</span></button>
+    </div>
+  </aside>
+  <div class="dashboard-overlay" aria-hidden="true"></div>
+  <div class="dashboard-shell">
+    <header class="dashboard-topbar">
+      <div class="dashboard-topbar__left">
+        <button class="dashboard-menu-toggle" type="button" aria-label="Open dashboard menu" aria-expanded="false" aria-controls="dashboard-sidebar"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+        <a class="dashboard-home-logo" href="index.html" aria-label="Stackly Property Valuation home"><img class="dashboard-header-logo" src="assets/stackly-logo-amber.webp" alt="Stackly"></a>
+      </div>
+      <h1 class="dashboard-header-title">Chief Appraiser Desk</h1>
+      <div class="dashboard-profile" aria-label="Logged in profile">
+        <span class="dashboard-profile__avatar" data-profile-initial>A</span>
+        <span class="dashboard-profile__email" data-profile-email>admin@stackly.com</span>
+      </div>
+    </header>
+    <main class="dashboard-main" tabindex="-1">
+      <section aria-labelledby="admin-overview-title" class="dashboard-panel is-active" data-panel="overview">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Chief appraiser command center</span><h2 id="admin-overview-title">Govern appraisals, AVM models and USPAP sign-offs.</h2><p>Keep active property assignments, hedonic comparable feeds, MAI/RICS review queues, and lender SLA deliveries aligned from one operational view.</p></div><div class="dashboard-role"><i class="fa-solid fa-shield-halved"></i><span>Chief Appraiser view</span></div></div>
+        <div aria-label="Valuation operations metrics" class="dashboard-grid">
+          <article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-building dashboard-card__icon"></i><span class="dashboard-card__trend">+16.8%</span></div><span>Active appraisals</span><strong>1,240</strong><small>Across 38 metropolitan markets</small></article>
+          <article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-file-circle-check dashboard-card__icon"></i><span class="dashboard-card__trend">±1.4%</span></div><span>AVM precision</span><strong>98.4%</strong><small>List-to-closed deed accuracy</small></article>
+          <article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-database dashboard-card__icon"></i><span class="dashboard-card__trend">Live</span></div><span>Indexed comps</span><strong>240K+</strong><small>Verified MLS &amp; county deeds</small></article>
+          <article class="dashboard-card"><div class="dashboard-card__top"><i class="fa-solid fa-heart-pulse dashboard-card__icon"></i><span class="dashboard-card__trend">On SLA</span></div><span>Lender sign-off</span><strong>99.2%</strong><small>First-pass USPAP audit rate</small></article>
+        </div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Appraisal queue</span><h3>What requires signatory review today?</h3><p>Inspect commercial DCF assignments, high-value luxury overrides, and county deed sync updates.</p></div><a class="dashboard-cta" href="404.html">Open assignment log <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="dashboard-layout"><div class="dashboard-list"><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-file-signature"></i><div><strong>Class-A Commercial DCF Sign-Offs</strong><span>Nine office and logistics tower dossiers are ready for MAI seal.</span></div></div><span class="dashboard-row__value">9 ready</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-house-circle-check"></i><div><strong>High-Value Residential AVM Escalations</strong><span>Fourteen luxury estate comps require view-premium verification.</span></div></div><span class="dashboard-row__value">14 pending</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-database"></i><div><strong>County Recorder &amp; GIS Refresh</strong><span>Q4 municipal tax roll and zoning FAR polygons synced across 12 counties.</span></div></div><span class="dashboard-row__value">Synced</span></div></div>
+        <aside class="dashboard-side-panel"><div><span class="dashboard-eyebrow">Next action</span><h3>Keep every lender SLA ahead of schedule.</h3><p>Assign MAI/RICS reviewers to pending commercial DCF models or publish updated submarket cap-rate tables.</p></div><a class="dashboard-cta dashboard-cta--light" href="404.html">Open signatory desk <i class="fa-solid fa-arrow-right"></i></a></aside></div>
+        </section>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Quick controls</span><h3>Valuation governance</h3><p>Use the sidebar to switch operational views, or launch a dedicated compliance configuration route.</p></div></div><div class="dashboard-action-grid"><div class="dashboard-action"><i class="fa-solid fa-user-gear"></i><span>Appraiser panel roster<small>Manage MAI, RICS &amp; ASA regional assignments</small></span></div><div class="dashboard-action"><i class="fa-solid fa-chart-column"></i><span>Cap-rate &amp; DCF matrices<small>Update submarket yield spreads and vacancy floors</small></span></div><div class="dashboard-action"><i class="fa-solid fa-shield"></i><span>USPAP &amp; FIRREA audit rules<small>Configure mandatory comp count and LTV flags</small></span></div><div class="dashboard-action"><i class="fa-solid fa-gear"></i><span>MLS &amp; GIS data pipelines<small>County deed webhooks and spatial polygon refresh</small></span></div></div></section>
+      </section>
+
+      <section aria-labelledby="admin-users-title" class="dashboard-panel" data-panel="users">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Appraiser directory</span><h2 id="admin-users-title">Coordinate MAI, RICS &amp; field appraisers with clarity.</h2><p>Monitor regional inspection capacity, signatory turnaround SLAs, and institutional lender desk requests.</p></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><i class="fa-solid fa-users dashboard-card__icon"></i><span>Licensed appraisers</span><strong>86</strong><small>MAI, MRICS &amp; ASA certified</small></article><article class="dashboard-card"><i class="fa-solid fa-user-check dashboard-card__icon"></i><span>In field today</span><strong>54</strong><small>Conducting physical &amp; drone inspections</small></article><article class="dashboard-card"><i class="fa-solid fa-user-clock dashboard-card__icon"></i><span>Pending co-sign</span><strong>19</strong><small>Dossiers awaiting chief review</small></article><article class="dashboard-card"><i class="fa-solid fa-user-shield dashboard-card__icon"></i><span>Lender desks</span><strong>142</strong><small>Active bank &amp; REIT portals</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Panel snapshot</span><h3>Turnaround &amp; inspection SLA mix</h3><p>Real-time overview of regional appraiser utilization and review speed.</p></div><a class="dashboard-cta" href="404.html">Manage panel roster <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-list"><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-user-check"></i><div><strong>Desktop &amp; Hybrid AVM SLA</strong><span>96% of desktop valuations completed within the 24-hour lender window.</span></div></div><span class="dashboard-row__value">18.4h avg</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-user-clock"></i><div><strong>Commercial Narrative Turnaround</strong><span>Full 10-year DCF appraisals averaging 3.4 business days to MAI seal.</span></div></div><span class="dashboard-row__value">3.4d avg</span></div></div></section>
+      </section>
+
+      <section aria-labelledby="admin-analytics-title" class="dashboard-panel" data-panel="analytics">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">AVM &amp; market telemetry</span><h2 id="admin-analytics-title">Monitor model precision across every submarket.</h2><p>Track hedonic regression error bounds, comparable sales density, and cap-rate drift in real time.</p></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><i class="fa-solid fa-chart-line dashboard-card__icon"></i><span>Median PPE</span><strong>±1.4%</strong><small>Predicted vs closed deed price</small></article><article class="dashboard-card"><i class="fa-solid fa-database dashboard-card__icon"></i><span>Monthly AVM runs</span><strong>64.8K</strong><small>API &amp; portal valuations executed</small></article><article class="dashboard-card"><i class="fa-solid fa-chart-column dashboard-card__icon"></i><span>Comp coverage</span><strong>97.2%</strong><small>Parcels with 10+ verified comps</small></article><article class="dashboard-card"><i class="fa-solid fa-clock dashboard-card__icon"></i><span>Model latency</span><strong>0.8s</strong><small>Average hedonic + GIS compute</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Accuracy signals</span><h3>Model calibration health</h3><p>Precision within ±5% of sale price, deed freshness, and USPAP check pass rates.</p></div><a class="dashboard-cta" href="404.html">Export model telemetry <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-signal-list"><div><span>Residential AVM</span><div class="dashboard-meter"><span style="width:98%"></span></div><strong>98%</strong></div><div><span>Commercial DCF</span><div class="dashboard-meter"><span style="width:96%"></span></div><strong>96%</strong></div><div><span>Industrial &amp; Land</span><div class="dashboard-meter"><span style="width:94%"></span></div><strong>94%</strong></div></div></section>
+      </section>
+
+      <section aria-labelledby="admin-reports-title" class="dashboard-panel" data-panel="reports">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Appraisal dossiers</span><h2 id="admin-reports-title">Keep every valuation report audit-ready.</h2><p>Inspect completed USPAP &amp; RICS dossiers, MISMO XML exports, and quarterly REIT portfolio mark-to-market packages.</p></div></div>
+        <div class="dashboard-grid"><article class="dashboard-card"><i class="fa-solid fa-file-lines dashboard-card__icon"></i><span>Signed dossiers</span><strong>3,840</strong><small>Issued this quarter</small></article><article class="dashboard-card"><i class="fa-solid fa-file-circle-check dashboard-card__icon"></i><span>QA verified</span><strong>28</strong><small>Ready for digital MAI seal</small></article><article class="dashboard-card"><i class="fa-solid fa-pen-to-square dashboard-card__icon"></i><span>In DCF modeling</span><strong>42</strong><small>Active commercial underwriting</small></article><article class="dashboard-card"><i class="fa-solid fa-eye dashboard-card__icon"></i><span>Lender downloads</span><strong>9.6K</strong><small>Committee exports this month</small></article></div>
+        <section class="dashboard-section"><div class="dashboard-section__head"><div><span class="dashboard-eyebrow">Release queue</span><h3>Recent institutional valuation dossiers</h3><p>Validated against USPAP, FIRREA, and RICS Red-Book checklists.</p></div><a class="dashboard-cta" href="404.html">Open dossier vault <i class="fa-solid fa-arrow-right"></i></a></div><div class="dashboard-list"><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-file-circle-check"></i><div><strong>Parcel #409 · Skyline Mixed-Use Tower ($42.8M)</strong><span>10-Yr DCF + 18 verified comps · Cap rate 6.85% · Signed by Vikram Mehta, MAI.</span></div></div><span class="dashboard-row__value">Sealed</span></div><div class="dashboard-row"><div class="dashboard-row__main"><i class="fa-solid fa-file-circle-check"></i><div><strong>Apex Logistics REIT · 14-Asset Industrial Portfolio ($118.5M)</strong><span>Quarterly NAV mark-to-market &amp; replacement cost audit complete.</span></div></div><span class="dashboard-row__value">Delivered</span></div></div></section>
+      </section>
+
+      <section aria-labelledby="admin-settings-title" class="dashboard-panel" data-panel="settings">
+        <div class="dashboard-hero"><div><span class="dashboard-eyebrow">Valuation governance settings</span><h2 id="admin-settings-title">Configure compliance and data feed policies.</h2><p>Manage USPAP digital seal certificates, MLS/GIS webhook keys, and role-based lender permissions.</p></div></div>
+        <section class="dashboard-section"><div class="dashboard-setting-row"><div><i class="fa-solid fa-shield-halved"></i><div><strong>USPAP &amp; FIRREA independence firewall</strong><span>Loan officer and borrower communications are strictly isolated from appraiser scoring.</span></div></div><span class="dashboard-status">Enforced</span></div><div class="dashboard-setting-row"><div><i class="fa-solid fa-bell"></i><div><strong>Lender SLA escalation alerts</strong><span>Notify chief appraiser desk 6 hours before any assignment deadline.</span></div></div><span class="dashboard-status">On</span></div><div class="dashboard-setting-row"><div><i class="fa-solid fa-database"></i><div><strong>Automated county deed &amp; GIS sync</strong><span>Nightly ingestion of recorded transfer taxes, parcel polygons, and zoning updates.</span></div></div><span class="dashboard-status">Healthy</span></div><div class="dashboard-section__head dashboard-settings-cta"><div><span class="dashboard-eyebrow">Configuration</span><h3>Need to update appraisal compliance rules?</h3></div><a class="dashboard-cta" href="404.html">Open governance settings <i class="fa-solid fa-arrow-right"></i></a></div></section>
+      </section>
+    </main>
+  </div>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>

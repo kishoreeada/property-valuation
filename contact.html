@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact Stackly Property Valuation to commission a USPAP/RICS appraisal, run a portfolio mark-to-market, or integrate our Hedonic AVM API.">
+<meta name="theme-color" content="#18120e">
+<title>Contact — Stackly Property Valuation</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/shared.css">
+  <link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="assets/fontawesome-all.min.css">
+<link rel="stylesheet" href="CSS/contact.css">
+</head>
+<body class="contact-page">
+<header class="site-header" data-header>
+  <div class="site-header__inner">
+    <a class="site-brand" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html" class="is-active" aria-current="page">Contact</a>
+    </nav>
+    <div class="site-header__actions"><a class="site-header__login" href="login.html">Login</a><a class="site-header__signup" href="signup.html">Sign Up</a></div>
+    <button class="site-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+  <div class="mobile-menu__top"><a class="site-brand" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a><button class="mobile-menu__close" type="button" aria-label="Close navigation">×</button></div>
+  <nav class="mobile-nav" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html" class="is-active" aria-current="page">Contact</a></nav>
+  <div class="mobile-menu__actions"><a class="site-header__signup" href="signup.html">Sign Up</a><a class="site-header__login" href="login.html">Login</a></div>
+</div>
+
+<main>
+<section class="contact-hero" aria-labelledby="contact-title">
+  <div class="contact-hero__grid" aria-hidden="true"></div>
+  <div class="contact-hero__glow contact-hero__glow--one" aria-hidden="true"></div>
+  <div class="contact-hero__glow contact-hero__glow--two" aria-hidden="true"></div>
+  <div class="contact-hero__inner">
+    <div class="contact-hero__intro" data-reveal>
+      <div class="contact-eyebrow"><span></span>Appraisal &amp; valuation desk</div>
+      <h1 id="contact-title">Bring us your <em>property.</em><br>We'll certify the value.</h1>
+      <p>Share the parcel address, asset class, or portfolio mandate you are underwriting. Our MAI and RICS valuation desk will scope the right appraisal package within 24 hours.</p>
+      <div class="contact-proof" aria-label="Contact highlights">
+        <div><strong>24h</strong><span>Desktop AVM quote</span></div>
+        <div><strong>MAI</strong><span>Certified review</span></div>
+        <div><strong>100%</strong><span>USPAP compliant</span></div>
+      </div>
+      <div class="contact-route" aria-label="Engagement path">
+        <span class="contact-route__node is-active"><i class="fa-solid fa-circle-question" aria-hidden="true"></i>Parcel Brief</span>
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        <span class="contact-route__node"><i class="fa-solid fa-compass" aria-hidden="true"></i>AVM &amp; Scope</span>
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        <span class="contact-route__node"><i class="fa-solid fa-bullseye" aria-hidden="true"></i>Signed Dossier</span>
+      </div>
+    </div>
+
+    <div class="contact-panel" data-reveal>
+      <div class="contact-panel__top">
+        <div><span class="contact-panel__kicker">VALUATION ASSIGNMENT DESK</span><h2>Commission an appraisal or AVM audit.</h2></div>
+        <span class="contact-panel__status"><i class="fa-solid fa-circle" aria-hidden="true"></i> Appraisers Online</span>
+      </div>
+      <form class="contact-form" id="contact-form" data-contact-form novalidate>
+        <div class="contact-form__row">
+          <div class="contact-field">
+            <label for="contact-name">Full name</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Your full name" required minlength="2" maxlength="80" aria-describedby="contact-name-error">
+            <small class="contact-field__error" id="contact-name-error" role="alert" aria-live="polite"></small>
+          </div>
+          <div class="contact-field">
+            <label for="contact-email">Work or institutional email</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@domain.com" required aria-describedby="contact-email-error">
+            <small class="contact-field__error" id="contact-email-error" role="alert" aria-live="polite"></small>
+          </div>
+        </div>
+        <div class="contact-field">
+          <label for="contact-topic">Valuation mandate / asset class</label>
+          <select id="contact-topic" name="topic" required aria-describedby="contact-topic-error">
+            <option value="" selected disabled>Select a valuation focus</option>
+            <option value="Residential &amp; Luxury Hedonic AVM">Residential &amp; Luxury Hedonic AVM</option>
+            <option value="Commercial Office, Retail &amp; Mixed-Use DCF">Commercial Office, Retail &amp; Mixed-Use DCF</option>
+            <option value="Industrial, Logistics &amp; REIT Portfolio NAV">Industrial, Logistics &amp; REIT Portfolio NAV</option>
+            <option value="Development Land, Zoning &amp; Tax Appeal">Development Land, Zoning &amp; Tax Appeal</option>
+          </select>
+          <small class="contact-field__error" id="contact-topic-error" role="alert" aria-live="polite"></small>
+        </div>
+        <div class="contact-field">
+          <label for="contact-message">Property details &amp; valuation objective</label>
+          <textarea id="contact-message" name="message" rows="4" placeholder="Share the property location, approximate square footage or GLA, and required delivery timeline..." required minlength="10" maxlength="1000" aria-describedby="contact-message-error"></textarea>
+          <small class="contact-field__error" id="contact-message-error" role="alert" aria-live="polite"></small>
+        </div>
+        <button class="contact-form__submit" type="submit">Request valuation proposal <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        <p class="contact-form__note"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> All parcel records and rent rolls are protected under strict USPAP confidentiality.</p>
+        <p class="contact-form__error" id="contact-form-error" role="alert" aria-live="polite"></p>
+        <p class="contact-form__success" id="contact-form-success" role="status" aria-live="polite" hidden></p>
+      </form>
+    </div>
+  </div>
+  <div class="contact-hero__bottom" data-reveal>
+    <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Appraising residential, commercial, and industrial portfolios across 50+ metropolitan markets.</span>
+    <a href="404.html">View regional coverage map <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+  </div>
+</section>
+
+<section class="contact-paths" aria-labelledby="contact-paths-title">
+  <div class="contact-paths__intro" data-reveal>
+    <span class="contact-paths__eyebrow">Choose your starting point</span>
+    <h2 id="contact-paths-title">A defensible valuation starts with the right <em>scope.</em></h2>
+    <p>Whether you are underwriting a single residential mortgage, acquiring a commercial tower, or marking a REIT portfolio to market, there is a dedicated desk ready.</p>
+  </div>
+  <div class="contact-paths__list">
+    <a class="contact-path" href="404.html" data-reveal>
+      <span class="contact-path__number">01</span>
+      <span class="contact-path__icon"><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i></span>
+      <span class="contact-path__body"><strong>I need a certified appraisal</strong><small>Commission a USPAP / RICS narrative report signed by an MAI or MRICS director.</small><b>Scope appraisal <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></b></span>
+    </a>
+    <a class="contact-path" href="404.html" data-reveal>
+      <span class="contact-path__number">02</span>
+      <span class="contact-path__icon"><i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i></span>
+      <span class="contact-path__body"><strong>I want to test the AVM engine</strong><small>Run instant hedonic valuations, comp adjustment tables, and confidence scores.</small><b>Launch sample AVM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></b></span>
+    </a>
+    <a class="contact-path" href="404.html" data-reveal>
+      <span class="contact-path__number">03</span>
+      <span class="contact-path__icon"><i class="fa-solid fa-rocket" aria-hidden="true"></i></span>
+      <span class="contact-path__body"><strong>I manage a loan or REIT portfolio</strong><small>Automate quarterly NAV mark-to-market and LTV stress testing across hundreds of assets.</small><b>Plan portfolio feed <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></b></span>
+    </a>
+  </div>
+  <div class="contact-paths__promise" data-reveal>
+    <span><i class="fa-solid fa-clock" aria-hidden="true"></i><strong>What to expect</strong></span>
+    <span>Preliminary AVM range</span><span>MAI / RICS lead appraiser</span><span>Fixed fee &amp; SLA quote</span>
+  </div>
+</section>
+
+<section class="contact-next" aria-labelledby="contact-next-title">
+  <div class="contact-next__inner">
+    <div class="contact-next__intro" data-reveal>
+      <span class="contact-next__eyebrow">03 / What happens next</span>
+      <div class="contact-next__index" aria-hidden="true">03</div>
+      <h2 id="contact-next-title">The first valuation scoping call has a clear <em>structure.</em></h2>
+      <p>No vague fee ranges or black-box estimates. We use the initial review to verify parcel identifiers, inspect available comparable density, and lock in your delivery SLA.</p>
+      <div class="contact-next__signal"><i class="fa-solid fa-bolt" aria-hidden="true"></i><span><strong>Calibrated to your asset class</strong><small>Direct assignment to a residential, commercial, industrial, or land specialist.</small></span></div>
+    </div>
+
+    <div class="contact-next__steps" data-reveal>
+      <a class="contact-next__step" href="404.html">
+        <span class="contact-next__step-no">01</span>
+        <span class="contact-next__step-main"><strong>We ingest parcel &amp; deed records</strong><small>We pull APN boundaries, historical transfers, zoning overlays, and submarket comps.</small></span>
+        <span class="contact-next__step-meta"><b>Before the call</b><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+      </a>
+      <a class="contact-next__step" href="404.html">
+        <span class="contact-next__step-no">02</span>
+        <span class="contact-next__step-main"><strong>We confirm methodology &amp; compliance</strong><small>We align on Sales Comparison, Income DCF, or Cost Approach and required USPAP/RICS format.</small></span>
+        <span class="contact-next__step-meta"><b>In the consult</b><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+      </a>
+      <a class="contact-next__step" href="404.html">
+        <span class="contact-next__step-no">03</span>
+        <span class="contact-next__step-main"><strong>You receive an engagement letter &amp; live portal</strong><small>Track inspection milestones, comp grids, and draft DCF tables inside your client dashboard.</small></span>
+        <span class="contact-next__step-meta"><b>After the call</b><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-brief" aria-labelledby="contact-brief-title">
+  <div class="contact-brief__ambient" aria-hidden="true"></div>
+  <div class="contact-brief__inner">
+    <div class="contact-brief__intro" data-reveal>
+      <span class="contact-brief__eyebrow">04 / Common questions</span>
+      <div class="contact-brief__index" aria-hidden="true">04</div>
+      <h2 id="contact-brief-title">You only need a parcel address to <em>start.</em></h2>
+      <p>Even if rent rolls or renovation budgets are still in draft, we can run an initial AVM and comparable sales screen immediately. Explore common questions below.</p>
+      <div class="contact-brief__rule"><span></span><b>Market evidence beats guesswork</b></div>
+    </div>
+
+    <div class="contact-brief__questions" data-reveal>
+      <div class="contact-brief__heading"><span>Appraisal Desk FAQ</span><small>Interactive guide</small></div>
+      <div class="contact-brief__list" data-brief-list>
+        <div class="contact-brief__item is-open">
+          <button class="contact-brief__trigger" type="button" aria-expanded="true" aria-controls="brief-answer-1">
+            <span class="contact-brief__q"><b>01</b><strong>What is the difference between a Desktop AVM and a Certified Appraisal?</strong></span>
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+          </button>
+          <div class="contact-brief__answer" id="brief-answer-1"><p>A Desktop AVM delivers an instant hedonic valuation and comp grid in under 24 hours for screening and HELOCs, while a Certified Appraisal includes physical/drone inspection, full DCF modeling, and an MAI/RICS-signed USPAP dossier.</p></div>
+        </div>
+        <div class="contact-brief__item">
+          <button class="contact-brief__trigger" type="button" aria-expanded="false" aria-controls="brief-answer-2">
+            <span class="contact-brief__q"><b>02</b><strong>Are Stackly appraisal reports accepted by institutional banks and agencies?</strong></span>
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+          </button>
+          <div class="contact-brief__answer" id="brief-answer-2" hidden><p>Yes. All certified reports comply strictly with USPAP, FIRREA, Fannie Mae/Freddie Mac, and RICS Red-Book standards, achieving a 99.2% first-pass acceptance rate across 420+ lending institutions.</p></div>
+        </div>
+        <div class="contact-brief__item">
+          <button class="contact-brief__trigger" type="button" aria-expanded="false" aria-controls="brief-answer-3">
+            <span class="contact-brief__q"><b>03</b><strong>How quickly can you turn around a commercial or portfolio valuation?</strong></span>
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+          </button>
+          <div class="contact-brief__answer" id="brief-answer-3" hidden><p>Desktop AVM and preliminary comp screens are delivered within 24 hours. Full commercial narrative appraisals and multi-asset REIT mark-to-market dossiers complete in 3 to 5 business days.</p></div>
+        </div>
+        <div class="contact-brief__item">
+          <button class="contact-brief__trigger" type="button" aria-expanded="false" aria-controls="brief-answer-4">
+            <span class="contact-brief__q"><b>04</b><strong>What deliverables do I receive when the valuation is complete?</strong></span>
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+          </button>
+          <div class="contact-brief__answer" id="brief-answer-4" hidden><p>You receive a signed USPAP/RICS PDF dossier, an interactive Excel/CSV DCF and comparable adjustment workbook, MISMO XML lender files, and live access in your Client Dashboard.</p></div>
+        </div>
+      </div>
+      <a class="contact-brief__cta" href="404.html">Schedule a 1:1 chief appraiser consult <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" id="contact-footer">
+  <div class="site-footer__container"><div class="site-footer__main">
+    <div class="site-footer__brand-col"><a class="site-brand site-brand--footer" href="index.html" aria-label="Stackly Property Valuation home"><img class="site-brand__logo" src="assets/stackly-logo-amber.webp" alt="Stackly" width="210" height="72"></a><p>Precision property valuation and real estate appraisal intelligence. Combine automated hedonic AVM models, commercial DCF underwriting, and MAI/RICS-certified sign-off.</p><div class="site-footer__socials" aria-label="Social links"><a href="404.html" aria-label="LinkedIn">in</a><a href="404.html" aria-label="Instagram">◎</a><a href="404.html" aria-label="X">𝕏</a><a href="404.html" aria-label="YouTube">▶</a></div></div>
+    <div class="site-footer__col"><h3>Explore</h3><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="blog.html">Blog</a><a href="contact.html" class="is-active" aria-current="page">Contact</a></div>
+    <div class="site-footer__col"><h3>Valuation</h3><a href="404.html">Automated AVM Engine</a><a href="404.html">Commercial DCF Appraisal</a><a href="404.html">Portfolio Mark-to-Market</a><a href="404.html">Land &amp; HBU Advisory</a></div>
+    <div class="site-footer__newsletter"><h3>Stay connected</h3><p>Get quarterly cap-rate benchmarks, submarket price indices, and valuation research in your inbox.</p><form class="newsletter-form" novalidate><label class="sr-only" for="newsletter-email">Email address</label><div class="newsletter-form__field"><input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Work or institutional email" required><button type="submit" aria-label="Subscribe to newsletter"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></button></div><small class="newsletter-form__error" role="alert"></small><small class="newsletter-form__success" role="status">You're subscribed. Thanks.</small></form></div>
+  </div><div class="site-footer__bottom"><span>© 2026 Stackly Property Valuation. All rights reserved.</span><div><a href="404.html">Privacy</a><a href="404.html">Terms</a></div></div></div>
+</footer>
+<script src="script.js"></script><script src="contact.js"></script>
+</body></html>
